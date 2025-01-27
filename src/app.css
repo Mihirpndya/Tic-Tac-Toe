@@ -1,0 +1,30 @@
+.board {
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 50px;
+  padding: 100;
+  height: 50px;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  border: "1px solid #000";
+  font-size: "2em";
+  cursor: "pointer";
+}
+
+.topbar {
+  text-align: center;
+}
+
+.bottomText{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
